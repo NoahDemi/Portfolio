@@ -1,12 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
+import Navbar from "./components/Navbar/Navbar";
 
-import Header from "./components/common/Header";
-import PageBody from "./components/common/PageBody";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" />
+        </Switch>
+      </Router>
+    </>
+  );
 }
 
 const rootElement = document.getElementById("root");
