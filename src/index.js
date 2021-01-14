@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
+import PageBody from "./components/common/PageBody/PageBody";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
@@ -14,10 +15,10 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <PageBody />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
-
           <Route path="/Contact" exact component={Contact} />
         </Switch>
       </Router>

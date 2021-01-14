@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Holtwood+One+SC&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
 
-.App {
-  font-family: sans-serif;
-  font-family: "Abel", sans-serif;
-  text-align: left;
-  background-color: #71a184;
-  min-height: 100vh;
+.home {
+  background-color: #e1e3f7;
+  text-align: center;
+  border-radius: 30px;
+  margin: 10%;
 }
+
+html {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .profile {
   border-radius: 50%;
   display: block;
