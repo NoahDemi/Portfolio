@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(58, 57, 57);
+  background-color: rgb(80, 79, 79);
   height: 100px;
   width: 100%;
   display: flex;
@@ -48,7 +48,7 @@
 }
 
 .nav-text a:hover {
-  background-color: rgb(80, 92, 105);
+  background-color: rgb(223, 108, 41);
   border-radius: 10%;
 
   justify-content: start;
@@ -59,7 +59,7 @@
   width: 70%;
   margin-top: 30px;
   margin-left: 6.5%;
-  z-index: 1;
+  z-index: 100;
   display: flex;
   align-content: left;
   flex-direction: row;
