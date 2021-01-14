@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles.css";
 import { ProjectData } from "../ProjectData";
+import Footer from "../common/Footer/Footer";
 
 function Home() {
   return (

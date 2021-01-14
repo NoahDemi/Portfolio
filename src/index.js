@@ -7,6 +7,7 @@ import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Projects from "./components/Pages/Projects";
+import Footer from "./components/common/Footer/Footer";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/Contact" exact component={Contact} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

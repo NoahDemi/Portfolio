@@ -9,6 +9,14 @@
   top: 0;
 }
 
+.myInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70%;
+  list-style: none;
+  padding: 4px;
+}
+
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;

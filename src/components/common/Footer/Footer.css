@@ -1,0 +1,7 @@
+.footer {
+  background-color: rgb(80, 79, 79);
+  align-items: flex-end;
+  font-weight: bold;
+  height: 50px;
+  bottom: 0;
+}
