@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
@@ -17,10 +18,9 @@ function Navbar() {
           <Link to="#" className="menu-bars">
             <FaIcons.FaArrowRight onClick={showSidebar} />
           </Link>
-          <ul className="myInfo">
-            <li> Li </li>
-            <li> GH </li>
-            <li> Res</li>
+          <ul class="home">
+            {" "}
+            <FaHome />{" "}
           </ul>
         </div>
 

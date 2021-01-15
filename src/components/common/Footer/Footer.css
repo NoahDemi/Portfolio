@@ -5,3 +5,23 @@
   height: 50px;
   bottom: 0;
 }
+
+.myInfo {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  background-color: rgb(223, 108, 41);
+  border-radius: 10%;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}

@@ -9,18 +9,14 @@
   top: 0;
 }
 
-.myInfo {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 70%;
-  list-style: none;
-  padding: 4px;
+.menu-bars {
+  margin-left: 4rem;
+  font-size: rem;
+  background: none;
 }
 
-.menu-bars {
-  margin-left: 2rem;
-  font-size: 2rem;
-  background: none;
+.home {
+  margin-left: -6rem;
 }
 
 .nav-menu {
@@ -34,6 +30,7 @@
 
 .nav-menu-active {
   display: flex;
+  margin-left: 4.5rem;
 }
 
 .nav-text {
@@ -65,13 +62,13 @@
 
 .nav-menu-items {
   width: 70%;
-  margin-top: 30px;
-  margin-left: 6.5%;
+  margin-top: 28px;
+
   z-index: 100;
   display: flex;
-  align-content: left;
-  flex-direction: row;
+
   position: fixed;
+  flex-wrap: wrap;
 }
 
 span {
