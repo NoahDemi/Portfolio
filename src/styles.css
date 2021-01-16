@@ -4,15 +4,15 @@
 .homePage {
   display: flex;
   justify-content: center;
-  align-items: space-around;
+  align-items: space-between;
   flex-wrap: wrap;
-  margin: 20%;
+  margin: 10%;
 }
 
 .intro {
   background-color: #c2c1b5;
-  opacity: 70%;
-  z-index: -1;
+  z-index: -10;
+  width: 80%;
   align-self: center;
   padding: 20px;
   border-radius: 30px;
@@ -21,9 +21,11 @@
 
 .projects {
   background-color: #c2c1b5;
-  z-index: 100;
+  z-index: -10;
+  width: 90%;
   border-radius: 30px;
   margin: 10%;
+  padding: 50px;
   display: flex;
   justify-content: space-around;
   align-items: space-around;
@@ -52,7 +54,22 @@ h2 {
 }
 
 button {
-  background-color: pink;
-  font-size: 3rem;
-  border-radius: 10px;
+  background-color: #ff9a02;
+  font-size: 1rem;
+  text-align: center;
+}
+
+form {
+  z-index: -10;
+  width: 80%;
+  background-color: #c2c1b5;
+  padding: 25px;
+  border-radius: 30px;
+  margin: 10%;
+}
+
+label {
+  font-family: "Holtwood One SC", serif;
+
+  font-size: 12px;
 }

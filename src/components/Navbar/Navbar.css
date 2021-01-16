@@ -1,6 +1,7 @@
 .navbar {
-  background-color: rgb(80, 79, 79);
+  background-color: rgb(77, 80, 104);
   height: 100px;
+  opacity: 90%;
   width: 100%;
   display: flex;
   justify-content: start;
@@ -17,6 +18,11 @@
 
 .home {
   margin-left: -6rem;
+}
+
+.home a:hover {
+  background-color: rgb(223, 108, 41);
+  border-radius: 10%;
 }
 
 .nav-menu {

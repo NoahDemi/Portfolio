@@ -19,8 +19,7 @@ function Navbar() {
             <FaIcons.FaArrowRight onClick={showSidebar} />
           </Link>
           <ul class="home">
-            {" "}
-            <FaHome />{" "}
+            <FaHome />
           </ul>
         </div>
 
