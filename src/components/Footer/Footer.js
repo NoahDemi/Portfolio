@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import style from "./Footer.css";
+
+import "./Footer.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
