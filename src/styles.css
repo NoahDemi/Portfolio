@@ -60,7 +60,6 @@ button {
 }
 
 form {
-  z-index: -10;
   width: 80%;
   background-color: #c2c1b5;
   padding: 25px;

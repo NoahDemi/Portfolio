@@ -1,0 +1,10 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 1400px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  opacity: 70%;
+}
