@@ -18,9 +18,9 @@ function Navbar() {
           <Link to="#" className="menu-bars">
             <FaIcons.FaArrowRight onClick={showSidebar} />
           </Link>
-          <ul class="home">
+          <Link class="home">
             <FaHome />
-          </ul>
+          </Link>
         </div>
 
         <nav className={sidebar ? "nav-menu-active" : "nav-menu"}>

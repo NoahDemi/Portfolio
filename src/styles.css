@@ -17,6 +17,7 @@
   padding: 20px;
   border-radius: 30px;
   margin: 5%;
+  box-shadow: 0 0 20px #000000b3;
 }
 
 .projects {
@@ -31,6 +32,7 @@
   align-items: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  box-shadow: 0 0 20px #000000b3;
 }
 
 html {
@@ -60,11 +62,7 @@ button {
 }
 
 form {
-  width: 80%;
-  background-color: #c2c1b5;
-  padding: 25px;
-  border-radius: 30px;
-  margin: 10%;
+  box-shadow: 0 0 20px #000000b3;
 }
 
 label {
