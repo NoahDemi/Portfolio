@@ -30,15 +30,15 @@ export default function ContactUs() {
 
       <div className="txtb">
         <label>Name: </label>
-        <input type="text" name="name" value="" placeholder="Enter Name" />
+        <input type="text" name="name" placeholder="Enter Name" />
       </div>
       <div className="txtb">
         <label>Email: </label>
-        <input type="email" name="email" value="" placeholder=" Enter Email" />
+        <input type="email" name="email" placeholder=" Enter Email" />
       </div>
       <div className="txtb">
         <label>Message: </label>
-        <textarea name="message" value="" placeholder="Enter Message" />
+        <textarea name="message" placeholder="Enter Message" />
       </div>
       <input type="submit" value="Send" />
     </form>

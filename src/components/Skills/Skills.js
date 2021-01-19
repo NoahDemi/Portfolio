@@ -4,11 +4,15 @@ import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import "./Skills.css";
 
 function Skills() {
   return (
     <ul className="skills">
+      <li>
+        <FaReact />
+      </li>
       <li>
         <FaHtml5 />
       </li>

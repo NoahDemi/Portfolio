@@ -10,18 +10,19 @@
 }
 
 .intro {
-  background-color: #c2c1b5;
+  background-color: #ffffff;
   z-index: -10;
   width: 80%;
   align-self: center;
   padding: 20px;
   border-radius: 30px;
   margin: 5%;
+
   box-shadow: 0 0 20px #000000b3;
 }
 
 .projects {
-  background-color: #c2c1b5;
+  background-color: #ffffff;
   z-index: -10;
   width: 90%;
   border-radius: 30px;
