@@ -10,7 +10,6 @@ function Home() {
     <containter className="homePage">
       <Skills />
       <About />
-      <Projects />
       <Contact />
     </containter>
   );
